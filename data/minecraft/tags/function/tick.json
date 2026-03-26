@@ -1,0 +1,14 @@
+{
+    "values": [
+        "asu:small",
+        "asu:big",
+        "asu:plate",
+        "asu:noplate",
+        "asu:arms",
+        "asu:noarms",
+        "asu:clockwise",
+        "asu:counterclockwise",
+
+        "asu:tutorial"
+    ]
+}

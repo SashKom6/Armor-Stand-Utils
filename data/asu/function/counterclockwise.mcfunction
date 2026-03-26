@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:armor_stand, name=counterclockwise] rotated as @s run rotate @s ~-45 ~
+execute as @e[type=minecraft:armor_stand, name=counterclockwise] run data remove entity @s CustomName

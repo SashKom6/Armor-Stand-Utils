@@ -1,0 +1,2 @@
+tellraw @s 'OK. Note that ASU Name Tags will continue to function until you delete the datapack and run \'/reload\' but players will not be able to view the tutorial.'
+tellraw @s "To reinstall the datapack, run '/reload' without deleting it, or reload the server."

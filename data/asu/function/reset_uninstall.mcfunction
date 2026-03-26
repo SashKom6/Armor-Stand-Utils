@@ -1,0 +1,2 @@
+function asu:reset
+function asu:uninstall_finished

@@ -1,0 +1,4 @@
+scoreboard objectives remove asu_tutorial
+tellraw @s {"text": "Uninstalling Armor Stand Utils.", bold:true}
+tellraw @s {"text": "Would you also like to reset all Armor Stands to their default states?", "bold":true}
+tellraw @s {"text": "No", "bold": true, "color": "dark_red", "click_event":{action:"run_command",command:"function asu:uninstall_finished"}, extra:[{"text":"Yes", "bold": true, "color": "dark_green", click_event:{action:"run_command",command:"function asu:reset_uninstall"}, "hover_event":{action:"show_text",value:"note that this will also affect Armor Stands whose properties were changed by sources other than ASU"}}]}
