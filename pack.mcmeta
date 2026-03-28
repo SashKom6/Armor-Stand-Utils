@@ -1,7 +1,12 @@
 {
     "pack": {
         "description": "Allows you to modify different aspects of armor stands with nametags. Run '/trigger asu_tutorial' for an in-game tutorial. https://modrinth.com/datapack/armor-stand-utils",
-        "min_format": 77,
-        "max_format": [101, 1]
+        "min_format": 63,
+        "max_format": [101, 1],
+        "supported_formats": {
+            "min_inclusive": 63,
+            "max_inclusive": 101
+        },
+        "pack_format": 63
     }
 }
